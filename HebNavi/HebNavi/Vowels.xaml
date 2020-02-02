@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                mc:Ignorable="d"
+                x:Class="HebNavi.Vowels"
+             Title="Hebrew Vowels">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="BoldFont">
+                <On Platform="Android" Value="OpenSans-Bold.ttf#Open Sans" />
+                <On Platform="UWP" Value="/Assets/OpenSans-Bold.ttf#Open Sans" />
+                <On Platform="iOS" Value="OpenSans-Bold" />
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="NormalFont">
+                <On Platform="Android" Value="EzraSIL-SR/SILEOT.ttf#Ezra SIL" />
+                <On Platform="UWP" Value="/Assets/EzraSIL-SR/SILEOT.ttf#Ezra SIL" />
+                <On Platform="iOS" Value="EzraSIL-SR/SILEOT" />
+            </OnPlatform>
+            <Style x:Key="stylePadButton" TargetType="Button">
+                <Setter Property="TextColor"       Value="#FCFBEE" />
+                <Setter Property="BackgroundColor" Value="#34495e" />
+                <Setter Property="FontSize"        Value="Large" />
+                <Setter Property="FontFamily" Value="{StaticResource NormalFont}" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#d4e6f1">
+            <Grid Padding="14">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+
+
+                <ScrollView Grid.Row="1" Grid.ColumnSpan="3">
+                    <StackLayout>
+                        
+                        <Button Grid.Row="0" Grid.Column="0" 
+                                Grid.ColumnSpan="3" 
+                                HorizontalOptions="Center" 
+                                Text="Long Vowels" 
+                                Clicked="OnVowelsLongClicked"
+                                BorderColor="Transparent"
+                                BackgroundColor="Transparent"/>
+                        <Grid BackgroundColor="#b3b6b7"  Padding="7" x:Name="GridVowelsLong">
+                            <Grid.Resources>
+                                <ResourceDictionary>
+                                    <Style TargetType="Button" BasedOn="{StaticResource stylePadButton}" />
+                                </ResourceDictionary>
+                            </Grid.Resources>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Button Grid.Row="0" Grid.Column="1" Text="בָ" />
+                            <Button Grid.Row="1" Grid.Column="1" Text="בֵ"   />
+                            <Button Grid.Row="2" Grid.Column="1" Text="בֹ"  />
+
+                            <Button Grid.Row="0" Grid.Column="2" Text="Qamets" />
+                            <Button Grid.Row="1" Grid.Column="2" Text="Tsere"/>
+                            <Button Grid.Row="2" Grid.Column="2"  Text="Holem"/>
+
+                            <Label Grid.Row="0" Grid.Column="0" Text="a class" />
+                            <Label Grid.Row="1" Grid.Column="0" Text="e class"/>
+                            <Label Grid.Row="2" Grid.Column="0"  Text="o class"/>
+
+                        </Grid>
+                        <Button Grid.Row="1" 
+                                Grid.Column="0" 
+                                Grid.ColumnSpan="3" 
+                                HorizontalOptions="Center" 
+                                Text="Short Vowels" 
+                                Clicked="OnVowelsLongClicked"
+                                BorderColor="Transparent"
+                                BackgroundColor="Transparent"/>
+                        <Grid BackgroundColor="#b3b6b7"  Padding="7" x:Name="GridVowelsShort">
+                            <Grid.Resources>
+                                <ResourceDictionary>
+                                    <Style TargetType="Button" BasedOn="{StaticResource stylePadButton}" />
+                                </ResourceDictionary>
+                            </Grid.Resources>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Button Grid.Row="0" Grid.Column="1" Text="בַ" />
+                            <Button Grid.Row="1" Grid.Column="1" Text="בֶ"   />
+                            <Button Grid.Row="2" Grid.Column="1" Text="בִ"  />
+                            <Button Grid.Row="3" Grid.Column="1"  Text="בָ" />
+                            <Button Grid.Row="4" Grid.Column="1"  Text="בֻ" />
+                            
+                            
+                            <Button Grid.Row="0" Grid.Column="2" Text="Pathach" />
+                            <Button Grid.Row="1" Grid.Column="2" Text="Seghol" />
+                            <Button Grid.Row="2" Grid.Column="2"  Text="Hireq" />
+                            <Button Grid.Row="3" Grid.Column="2"  Text="Qamets Hatuf" />
+                            <Button Grid.Row="4" Grid.Column="2"  Text="Qibbuts" />
+
+                            <Label Grid.Row="0" Grid.Column="0" Text="a class" />
+                            <Label Grid.Row="1" Grid.Column="0" Text="e class"/>
+                            <Label Grid.Row="2" Grid.Column="0"  Text="i class"/>
+                            <Label Grid.Row="3" Grid.Column="0" Text="o class" />
+                            <Label Grid.Row="4" Grid.Column="0" Text="u class"/>
+                        </Grid>
+
+                        <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center" Text="Reduced / Hateph Vowels"/>
+                        <Grid BackgroundColor="#b3b6b7"  Padding="7" x:Name="GridVowelsReduced">
+                            <Grid.Resources>
+                                <ResourceDictionary>
+                                    <Style TargetType="Button" BasedOn="{StaticResource stylePadButton}" />
+                                </ResourceDictionary>
+                            </Grid.Resources>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Button Grid.Row="0" Grid.Column="1" Text="חֲ" />
+                            <Button Grid.Row="1" Grid.Column="1" Text="חֱ"   />
+                            <Button Grid.Row="2" Grid.Column="1" Text="חֳ"  />
+
+                            <Button Grid.Row="0" Grid.Column="2" Text="Hateph Pathach" />
+                            <Button Grid.Row="1" Grid.Column="2" Text="Hateph Seghol" />
+                            <Button Grid.Row="2" Grid.Column="2"  Text="Hateph Qamets"/>
+
+                            <Label Grid.Row="0" Grid.Column="0" Text="a class" />
+                            <Label Grid.Row="1" Grid.Column="0" Text="e class"/>
+                            <Label Grid.Row="2" Grid.Column="0"  Text="o class"/>
+                        </Grid>
+
+
+                        <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center" Text="Vowel Letters"/>
+                        <Grid BackgroundColor="#b3b6b7"  Padding="7" x:Name="GridVowelLetters">
+                            <Grid.Resources>
+                                <ResourceDictionary>
+                                    <Style TargetType="Button" BasedOn="{StaticResource stylePadButton}" />
+                                </ResourceDictionary>
+                            </Grid.Resources>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Button Grid.Row="0" Grid.Column="1" Text="בָה" />
+                            <Button Grid.Row="1" Grid.Column="1" Text="בֵי"   />
+                            <Button Grid.Row="2" Grid.Column="1" Text="בֶי"  />
+                            <Button Grid.Row="3" Grid.Column="1"  Text="בִי" />
+                            <Button Grid.Row="4" Grid.Column="1"  Text="בוֹ" />
+                            <Button Grid.Row="5" Grid.Column="1"  Text="בוּ" />
+                            
+                            <Button Grid.Row="0" Grid.Column="2" Text="Qamets He" />
+                            <Button Grid.Row="1" Grid.Column="2" Text="Tsere Yod"/>
+                            <Button Grid.Row="2" Grid.Column="2"  Text="Seghol Yod" />
+                            <Button Grid.Row="3" Grid.Column="2"  Text="Hireq Yod" />
+                            <Button Grid.Row="4" Grid.Column="2"  Text="Holem Waw" />
+                            <Button Grid.Row="5" Grid.Column="2"  Text="Shureq" />
+
+                            <Label Grid.Row="0" Grid.Column="0" Text="a class" />
+                            <Label Grid.Row="1" Grid.Column="0" Text="e class"/>
+                            <Label Grid.Row="2" Grid.Column="0" Text="e class"/>
+                            <Label Grid.Row="3" Grid.Column="0"  Text="i class"/>
+                            <Label Grid.Row="4" Grid.Column="0" Text="o class" />
+                            <Label Grid.Row="5" Grid.Column="0" Text="u class"/>
+                        </Grid>
+
+           
+
+                    </StackLayout>
+                </ScrollView>
+            </Grid>
+            <Button Grid.Row="2" 
+                    Grid.ColumnSpan="2" 
+                    x:Name="HomeButton" 
+                    Text="Home" 
+                    Clicked="OnHomePageClicked" 
+                    VerticalOptions="EndAndExpand"
+                    FontSize="Subtitle"/>        
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                mc:Ignorable="d"
+                x:Class="HebNavi.Consonants"
+                Title="Hebrew Alphabet">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="NormalFont">
+                <On Platform="Android" Value="EzraSIL-SR/SILEOT.ttf#Ezra SIL" />
+                <On Platform="UWP" Value="/Assets/EzraSIL-SR/SILEOT.ttf#Ezra SIL" />
+                <On Platform="iOS" Value="EzraSIL-SR/SILEOT" />
+            </OnPlatform>
+            <Style x:Key="stylePadButton" TargetType="Button">
+                <Setter Property="TextColor"       Value="#FCFBEE" />
+                <Setter Property="BackgroundColor" Value="#34495e" />
+                <Setter Property="FontSize"        Value="Large" />
+                <Setter Property="FontFamily" Value="{StaticResource NormalFont}" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#d4e6f1">
+            <Grid Padding="14">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+
+                <Label Grid.Row="1" Grid.Column="0"  x:Name="SoundNameLabel"  Text="Sound / Hide"/>
+                <Switch Grid.Row="1" Grid.Column="1" x:Name="SoundNameToggle" IsToggled="False" Toggled="OnSoundNameToggled"/>
+                
+                <Button Grid.Row="0" Grid.Column="0"  Grid.ColumnSpan="3" Clicked="OnConsonantPageClicked" x:Name="MyButton"  Text="The Hebrew Alphabet" />
+
+                <ScrollView Grid.Row="2" Grid.ColumnSpan="3">
+                    <StackLayout>
+                    <Grid BackgroundColor="#b3b6b7"  Padding="7" x:Name="gridButtons">
+                        <Grid.Resources>
+                            <ResourceDictionary>
+                                <Style TargetType="Button" BasedOn="{StaticResource stylePadButton}" />
+                            </ResourceDictionary>
+                        </Grid.Resources>
+                        <Button Grid.Row="0" Grid.Column="0" Text="א" />
+                        <Button Grid.Row="1" Grid.Column="0"  Text="בּ"   />
+                        <Button Grid.Row="2" Grid.Column="0"  Text="ב"  />
+                        <Button Grid.Row="3" Grid.Column="0"  Text="גּ" />
+                        <Button Grid.Row="4" Grid.Column="0"  Text="ג" />
+                        <Button Grid.Row="5" Grid.Column="0"  Text="דּ" />
+                        <Button Grid.Row="6" Grid.Column="0"  Text="ד" />
+                        <Button Grid.Row="7" Grid.Column="0"  Text="ה" />
+                        <Button Grid.Row="8" Grid.Column="0"  Text="ו" />
+                        <Button Grid.Row="9" Grid.Column="0"  Text="ז" />
+                        <Button Grid.Row="10" Grid.Column="0"  Text="ח" />
+                        <Button Grid.Row="11" Grid.Column="0"  Text="ט" />
+                        <Button Grid.Row="12" Grid.Column="0"  Text="י" />
+                        <Button Grid.Row="13" Grid.Column="0"  Text="כּ" />
+                        <Button Grid.Row="14" Grid.Column="0" Text="ך     כ" />
+                        <Button Grid.Row="15" Grid.Column="0"  Text="ל" />
+                        <Button Grid.Row="16" Grid.Column="0"  Text="ם    מ" />
+                        <Button Grid.Row="17" Grid.Column="0" Text="ן     נ" />
+                        <Button Grid.Row="18" Grid.Column="0"  Text="ס" />
+                        <Button Grid.Row="19" Grid.Column="0"  Text="ע" />
+                        <Button Grid.Row="20" Grid.Column="0" Text="פּ"   />
+                        <Button Grid.Row="21" Grid.Column="0" Text="ף     פ"  />
+                        <Button Grid.Row="22" Grid.Column="0" Text="ץ     צ" />
+                        <Button Grid.Row="23" Grid.Column="0"  Text="ק" />
+                        <Button Grid.Row="24" Grid.Column="0"  Text="ר" />
+                        <Button Grid.Row="25" Grid.Column="0"  Text="ש" />
+                        <Button Grid.Row="26" Grid.Column="0"  Text="שׁ" />
+                        <Button Grid.Row="27" Grid.Column="0"  Text="תּ" />
+                        <Button Grid.Row="28" Grid.Column="0"  Text="ת" />
+
+                        <Button Grid.Row="0" Grid.Column="1" Text="Alef" />
+                        <Button Grid.Row="1" Grid.Column="1" Text="Bet" Grid.RowSpan="2"/>
+                        <Button Grid.Row="3" Grid.Column="1"  Text="Gimel" Grid.RowSpan="2"/>
+                        <Button Grid.Row="5" Grid.Column="1"  Text="Dalet" Grid.RowSpan="2"/>
+                        <Button Grid.Row="7" Grid.Column="1"  Text="He" />
+                        <Button Grid.Row="8" Grid.Column="1"  Text="Waw" />
+                        <Button Grid.Row="9" Grid.Column="1"  Text="Zayin" />
+                        <Button Grid.Row="10" Grid.Column="1"  Text="Het" />
+                        <Button Grid.Row="11" Grid.Column="1"  Text="Tet" />
+                        <Button Grid.Row="12" Grid.Column="1"  Text="Yod" />
+                        <Button Grid.Row="13" Grid.Column="1"  Text="Kaf" Grid.RowSpan="2"/>
+                        <Button Grid.Row="15" Grid.Column="1"  Text="Lamed" />
+                        <Button Grid.Row="16" Grid.Column="1"  Text="Mem" />
+                        <Button Grid.Row="17" Grid.Column="1"  Text="Nun"/>
+                        <Button Grid.Row="18" Grid.Column="1" Text="Samek" />
+                        <Button Grid.Row="19" Grid.Column="1"  Text="Ayin" />
+                        <Button Grid.Row="20" Grid.Column="1"  Text="Pe" Grid.RowSpan="2"/>
+                        <Button Grid.Row="22" Grid.Column="1" Text="Tsade"  />
+                        <Button Grid.Row="23" Grid.Column="1" Text="Qof" />
+                        <Button Grid.Row="24" Grid.Column="1"  Text="Resh" />
+                        <Button Grid.Row="25" Grid.Column="1"  Text="Sin" />
+                        <Button Grid.Row="26" Grid.Column="1"  Text="Shin" />
+                            <Button Grid.Row="27" Grid.Column="1"  Text="Taw" Grid.RowSpan="2" />
+                        </Grid>
+                    </StackLayout>
+                </ScrollView>
+
+
+            </Grid>
+            <Button Grid.Row="2" 
+                    Grid.ColumnSpan="2" 
+                    x:Name="HomeButton" 
+                    Text="Home" 
+                    Clicked="OnHomePageClicked" 
+                    VerticalOptions="EndAndExpand"
+                    FontSize="Subtitle"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

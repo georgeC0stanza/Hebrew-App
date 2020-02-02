@@ -1,0 +1,2 @@
+MainPackage=C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\x86\Release\HebNavi.UWP_1.0.1.0_x86.appx
+SymbolPackage=C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\obj\x86\Release\Symbols\HebNavi.UWP_1.0.1.0_x86.appxsym

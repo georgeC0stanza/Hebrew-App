@@ -1,0 +1,12 @@
+﻿/ref:"C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\obj\x64\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"C:\Users\harrd\.nuget\packages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.1.8\tools\SharedLibrary\ret\AnalysisILToc"
+/ref:"C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\obj\x64\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\obj\x64\Release\ilc\in\\"
+/ref:"C:\Users\harrd\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.1.8\tools\x64\ilc\lib\Private\\"
+/ref:"C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\obj\x64\Release\ilc\in"
+/ref:"C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\obj\x64\Release\ilc\in\WinMetadata"
+/ca:System.Private.CoreLib
+/cscpath:"C:\Users\harrd\.nuget\packages\microsoft.net.native.compiler\2.1.8\tools\csc"
+/out:"C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\obj\x64\Release\ilc\intermediate\SgGenerated\\"
+/int:"C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\obj\x64\Release\ilc\intermediate\HebNavi.UWP.Sg"
+"@C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\obj\x64\Release\ilc\intermediate\HebNavi.UWP.Sg\ComputedSerializationInput.txt"

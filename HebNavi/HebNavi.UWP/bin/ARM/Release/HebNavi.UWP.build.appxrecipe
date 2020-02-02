@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ASUSMONSTER</Machine>
+    <WindowsUser>harrd</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|ARM</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
+    <PackageIdentityPublisher>CN=DavidHarris</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\obj\ARM\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license.htm">
+      <PackagePath>Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license.htm</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\default%281%29.css">
+      <PackagePath>Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\default%281%29.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\default.css">
+      <PackagePath>Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\e-mail.gif">
+      <PackagePath>Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\e-mail.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\element.js">
+      <PackagePath>Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\element.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\ga.js">
+      <PackagePath>Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\ga.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\main.js">
+      <PackagePath>Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\main.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\mini_google.png">
+      <PackagePath>Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\mini_google.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\offsite_link.png">
+      <PackagePath>Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\offsite_link.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\OFL_logo_rect_color.png">
+      <PackagePath>Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\OFL_logo_rect_color.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\SIL_logo_left_column.gif">
+      <PackagePath>Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\SIL_logo_left_column.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\translateelement.css">
+      <PackagePath>Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\translateelement.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\type-deb.gif">
+      <PackagePath>Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\type-deb.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\type-exe.gif">
+      <PackagePath>Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\type-exe.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\type-kmp.gif">
+      <PackagePath>Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\type-kmp.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\type-zip.gif">
+      <PackagePath>Assets\EzraSIL-SR\Ezra SIL Hebrew Unicode Fonts license_files\type-zip.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\SILEOT.ttf">
+      <PackagePath>Assets\EzraSIL-SR\SILEOT.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\EzraSIL-SR\SILEOTSR.ttf">
+      <PackagePath>Assets\EzraSIL-SR\SILEOTSR.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\HebNavi.UWP.dll">
+      <PackagePath>HebNavi.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\HebNavi.UWP.exe">
+      <PackagePath>HebNavi.UWP.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\HebNavi.UWP.pdb">
+      <PackagePath>HebNavi.UWP.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\harrd\.nuget\packages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx">
+      <Name>Microsoft.NET.Native.Framework.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\harrd\.nuget\packages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\harrd\.nuget\packages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx">
+      <Name>Microsoft.NET.Native.Framework.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\harrd\.nuget\packages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\harrd\.nuget\packages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx">
+      <Name>Microsoft.NET.Native.Framework.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\harrd\.nuget\packages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\harrd\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.1.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\harrd\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\harrd\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.1.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\harrd\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\harrd\.nuget\packages\runtime.win10-arm.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.1.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\harrd\.nuget\packages\runtime.win10-arm.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

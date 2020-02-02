@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HebNavi.NounsAndPronouns"
+             Title="Nouns and Pronouns">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="BoldFont">
+                <On Platform="Android" Value="OpenSans-Bold.ttf#Open Sans" />
+                <On Platform="UWP" Value="/Assets/OpenSans-Bold.ttf#Open Sans" />
+                <On Platform="iOS" Value="OpenSans-Bold" />
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="NormalFont">
+                <On Platform="Android" Value="EzraSIL-SR/SILEOT.ttf#Ezra SIL" />
+                <On Platform="UWP" Value="/Assets/EzraSIL-SR/SILEOT.ttf#Ezra SIL" />
+                <On Platform="iOS" Value="EzraSIL-SR/SILEOT" />
+            </OnPlatform>
+            <Style x:Key="stylePadButton" TargetType="Button">
+                <Setter Property="TextColor"       Value="#FCFBEE" />
+                <Setter Property="BackgroundColor" Value="#34495e" />
+                <Setter Property="FontSize"        Value="Large" />
+                <Setter Property="FontFamily" Value="{StaticResource NormalFont}" />
+            </Style>
+            <Style x:Key="styleGridLabels" TargetType="Label">
+                <Setter Property="TextColor"       Value="Black"/>
+
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#d4e6f1">
+            <Grid Padding="14">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <ScrollView Grid.Row="1" Grid.ColumnSpan="3">
+                    <StackLayout>
+                        <Button Text="Hide all" TextColor="Black" Clicked="ToggleAll_OnClicked"/>
+                        <Label Text="Nouns Endings" 
+                               Grid.Row="0" 
+                               Grid.Column="1" 
+                               HorizontalOptions="Center" 
+                               FontSize="Title"
+                               TextColor="Black"/>
+                        <Grid BackgroundColor="#b3b6b7"  
+                              Padding="7" 
+                              HorizontalOptions="CenterAndExpand" 
+                              x:Name="GridNounEndings">
+                            <Grid.Resources>
+                                <ResourceDictionary>
+                                    <Style TargetType="Button" BasedOn="{StaticResource stylePadButton}" />
+                                    <Style TargetType="Label" BasedOn="{StaticResource styleGridLabels}" />
+                                </ResourceDictionary>
+                            </Grid.Resources>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="auto" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Row="0" Grid.Column="0" Text="" />
+                            <Label Grid.Row="1" Grid.Column="0" VerticalOptions="Center" Text="Singular"/>
+                            <Label Grid.Row="2" Grid.Column="0" VerticalOptions="Center" Text="Plural"/>
+                            <Label Grid.Row="3" Grid.Column="0" VerticalOptions="Center" Text="Dual"/>
+
+                            <Label Grid.Row="0" Grid.Column="1" Text="Masculine" FontSize="Subtitle" HorizontalOptions="Center"/>
+                            <Button ClassId="Button1" Grid.Row="1" Grid.Column="1" Text="endingless" FontSize="Medium" />
+                            <Button ClassId="Button2" Grid.Row="2" Grid.Column="1" Text="ִים"/>
+                            <Button ClassId="Button3" Grid.Row="3" Grid.Column="1" Text="ַיׅמ"/>
+
+                            <Label Grid.Row="0" Grid.Column="2" Text="Feminine" FontSize="Subtitle" HorizontalOptions="Center"/>
+                            <Button Grid.Row="1" Grid.Column="2" Text="וּת / ִות / ֶת / ַת / ׇה"/>
+                            <Button Grid.Row="2" Grid.Column="2"  Text="וֹת"/>
+                            <Button Grid.Row="3" Grid.Column="2"  Text="ׇתַיִמ /  ַיׅמ"/>
+                        </Grid>
+                        <Label Text="Independent Personal Pronouns" 
+                               Grid.Row="0" 
+                               Grid.Column="1" 
+                               HorizontalOptions="Center" 
+                               FontSize="Title"
+                               TextColor="Black"/>
+                        <Grid BackgroundColor="#b3b6b7"  
+                              Padding="7" 
+                              HorizontalOptions="CenterAndExpand" 
+                              x:Name="GridIndepenantPersonalPronouns">
+                            <Grid.Resources>
+                                <ResourceDictionary>
+                                    <Style TargetType="Button" BasedOn="{StaticResource stylePadButton}" />
+                                    <Style TargetType="Label" BasedOn="{StaticResource styleGridLabels}" />
+                                </ResourceDictionary>
+                            </Grid.Resources>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="auto" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Row="1" Grid.Column="0" VerticalOptions="Center" Text="1st Common"/>
+                            <Label Grid.Row="2" Grid.Column="0" VerticalOptions="Center" Text="2nd Masculine"/>
+                            <Label Grid.Row="3" Grid.Column="0" VerticalOptions="Center" Text="2nd Feminine"/>
+                            <Label Grid.Row="4" Grid.Column="0" VerticalOptions="Center" Text="3rd Masculine"/>
+                            <Label Grid.Row="5" Grid.Column="0" VerticalOptions="Center" Text="3rd Feminine"/>
+
+                            <Label Grid.Row="0" 
+                                   Grid.Column="1" 
+                                   Text="Singular" 
+                                   FontSize="Subtitle" 
+                                   HorizontalOptions="Center" 
+                                   Grid.ColumnSpan="2"/>
+                            <Button Grid.Row="1" Grid.Column="1" Text="אֲנִי / אׇנׂכִי" />
+                            <Button Grid.Row="2" Grid.Column="1" Text="אַתּה"/>
+                            <Button Grid.Row="3" Grid.Column="1" Text="אתְּ"/>
+                            <Button Grid.Row="4" Grid.Column="1" Text="הוּא"/>
+                            <Button Grid.Row="5" Grid.Column="1" Text="הִיא / הִוא"/>
+
+                            <Button Grid.Row="1" Grid.Column="2" Text="I" FontSize="Medium" />
+                            <Button Grid.Row="2" Grid.Column="2" Text="You" FontSize="Medium" />
+                            <Button Grid.Row="3" Grid.Column="2"  Text="You" FontSize="Medium" />
+                            <Button Grid.Row="4" Grid.Column="2"  Text="He / It" FontSize="Medium" />
+                            <Button Grid.Row="5" Grid.Column="2"  Text="She / It" FontSize="Medium" />
+
+                            <Label Grid.Row="6" 
+                                   Grid.Column="1" 
+                                   Text="Plural" 
+                                   FontSize="Subtitle" 
+                                   HorizontalOptions="Center" 
+                                   Grid.ColumnSpan="2"
+                                   VerticalOptions="End"/>
+
+                            <Label Grid.Row="7" Grid.Column="0" VerticalOptions="Center" Text="1st Common"/>
+                            <Label Grid.Row="8" Grid.Column="0" VerticalOptions="Center" Text="2nd Masculine"/>
+                            <Label Grid.Row="9" Grid.Column="0" VerticalOptions="Center" Text="2nd Feminine"/>
+                            <Label Grid.Row="10" Grid.Column="0" VerticalOptions="Center" Text="3rd Masculine"/>
+                            <Label Grid.Row="11" Grid.Column="0" VerticalOptions="Center" Text="3rd Feminine"/>
+
+                            <Button Grid.Row="7" Grid.Column="1" Text="אֲנַתְנוּ" />
+                            <Button Grid.Row="8" Grid.Column="1" Text="אַתֶּם"/>
+                            <Button Grid.Row="9" Grid.Column="1" Text="אַתֵּנׇה"/>
+                            <Button Grid.Row="10" Grid.Column="1" Text="הֵם / הֵמׇּה"/>
+                            <Button Grid.Row="11" Grid.Column="1" Text="הֵן / הֵנׇּה"/>
+
+                            <Button Grid.Row="7" Grid.Column="2" Text="We" FontSize="Medium" />
+                            <Button Grid.Row="8" Grid.Column="2"  Text="You" FontSize="Medium" />
+                            <Button Grid.Row="9" Grid.Column="2"  Text="You" FontSize="Medium" />
+                            <Button Grid.Row="10" Grid.Column="2" Text="They" FontSize="Medium" />
+                            <Button Grid.Row="11" Grid.Column="2" Text="They" FontSize="Medium" />
+                        </Grid>
+
+                        <Label Text="Demonstrative Pronouns" 
+                               Grid.Row="0" 
+                               Grid.Column="1" 
+                               HorizontalOptions="Center" 
+                               FontSize="Title"
+                               TextColor="Black"/>
+                        <Grid BackgroundColor="#b3b6b7"  
+                              Padding="7" 
+                              HorizontalOptions="CenterAndExpand" 
+                              x:Name="GridDemonstrativePronouns">
+                            <Grid.Resources>
+                                <ResourceDictionary>
+                                    <Style TargetType="Button" BasedOn="{StaticResource stylePadButton}" />
+                                    <Style TargetType="Label" BasedOn="{StaticResource styleGridLabels}" />
+                                </ResourceDictionary>
+                            </Grid.Resources>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="auto" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Row="0" 
+                                   Grid.Column="1" 
+                                   Text="Singular" 
+                                   FontSize="Subtitle" 
+                                   HorizontalOptions="Center" 
+                                   Grid.ColumnSpan="2"/>
+
+                            <Label Grid.Row="1" Grid.Column="0" VerticalOptions="Center" Text="Masculine"/>
+                            <Label Grid.Row="2" Grid.Column="0" VerticalOptions="Center" Text="Feminine"/>
+                            <Label Grid.Row="3" Grid.Column="0" VerticalOptions="Center" Text="Masculine"/>
+                            <Label Grid.Row="4" Grid.Column="0" VerticalOptions="Center" Text="Feminine"/>
+
+                            <Button Grid.Row="1" Grid.Column="1" Text="זֶה" />
+                            <Button Grid.Row="2" Grid.Column="1" Text="זׂאת"/>
+                            <Button Grid.Row="3" Grid.Column="1" Text="הוּא" />
+                            <Button Grid.Row="4" Grid.Column="1" Text="הִיא" />
+
+                            <Button Grid.Row="1" Grid.Column="2" Text="This" FontSize="Medium" />
+                            <Button Grid.Row="2" Grid.Column="2" Text="This" FontSize="Medium" />
+                            <Button Grid.Row="3" Grid.Column="2"  Text="That" FontSize="Medium" />
+                            <Button Grid.Row="4" Grid.Column="2"  Text="That" FontSize="Medium" />
+
+                            <Label Grid.Row="5" 
+                                   Grid.Column="1" 
+                                   Text="Plural" 
+                                   FontSize="Subtitle" 
+                                   HorizontalOptions="Center" 
+                                   Grid.ColumnSpan="2"
+                                   VerticalOptions="End"/>
+
+                            <Label Grid.Row="6" Grid.Column="0" VerticalOptions="Center" Text="Masculine"/>
+                            <Label Grid.Row="7" Grid.Column="0" VerticalOptions="Center" Text="Feminine"/>
+                            <Label Grid.Row="8" Grid.Column="0" VerticalOptions="Center" Text="Masculine"/>
+                            <Label Grid.Row="9" Grid.Column="0" VerticalOptions="Center" Text="Feminine"/>
+
+                            <Button Grid.Row="6" Grid.Column="1" Text="אֵלֶּה" />
+                            <Button Grid.Row="7" Grid.Column="1" Text="אֵלֶּה"/>
+                            <Button Grid.Row="8" Grid.Column="1" Text="הֵם / הֵמׇּה"/>
+                            <Button Grid.Row="9" Grid.Column="1" Text="הֵן / הֵנׇּה"/>
+
+                            <Button Grid.Row="6" Grid.Column="2" Text="These" FontSize="Medium" />
+                            <Button Grid.Row="7" Grid.Column="2"  Text="These" FontSize="Medium" />
+                            <Button Grid.Row="8" Grid.Column="2"  Text="Those" FontSize="Medium" />
+                            <Button Grid.Row="9" Grid.Column="2" Text="Those" FontSize="Medium" />
+                        </Grid>
+
+                        <Label Text="Misc." 
+                               Grid.Row="0" 
+                               Grid.Column="1" 
+                               HorizontalOptions="Center" 
+                               FontSize="Title"
+                               TextColor="Black"/>
+                        <Grid BackgroundColor="#b3b6b7" 
+                              HorizontalOptions="CenterAndExpand"  
+                              Padding="7" 
+                              x:Name="gridMiscPronouns">
+                            <Grid.Resources>
+                                <ResourceDictionary>
+                                    <Style TargetType="Button" BasedOn="{StaticResource stylePadButton}" />
+                                    <Style TargetType="Label" BasedOn="{StaticResource styleGridLabels}" />
+                                </ResourceDictionary>
+                            </Grid.Resources>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="auto" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Row="0" 
+                                   Grid.Column="1" 
+                                   Text="Relative Pronoun" 
+                                   FontSize="Subtitle" 
+                                   HorizontalOptions="Center" 
+                                   Grid.ColumnSpan="2"
+                                   VerticalOptions="Center"/>
+
+                            <Button Grid.Row="1" Grid.Column="0" Text="אֲשֶׁר" />
+                            <Button Grid.Row="1" Grid.Column="1" Text="Who, Whom, Whose, That, Which"  FontSize="Medium"/>
+
+                            <Label Grid.Row="2" 
+                                   Grid.Column="0" 
+                                   Text="Interrogative Pronoun" 
+                                   FontSize="Subtitle" 
+                                   HorizontalOptions="Center" 
+                                   Grid.ColumnSpan="2"
+                                   VerticalOptions="Center"/>
+
+                            <Button Grid.Row="3" Grid.Column="0" Text="מׅי" />
+                            <Button Grid.Row="3" Grid.Column="1"  Text="Who? Whom?" FontSize="Medium"/>
+
+                            <Button Grid.Row="4" Grid.Column="0" Text="מׇה" />
+                            <Button Grid.Row="4" Grid.Column="1"  Text="What?" FontSize="Medium"/>
+
+                            <Label Grid.Row="5" 
+                                   Grid.Column="0" 
+                                   Text="Interrogative Particle" 
+                                   FontSize="Subtitle" 
+                                   HorizontalOptions="Center" 
+                                   Grid.ColumnSpan="2"
+                                   VerticalOptions="Center"/>
+
+                            <Button Grid.Row="6" Grid.Column="0" Text="הֲ" />
+                            <Button Grid.Row="6" Grid.Column="1"  Text="Indicates a Question" FontSize="Medium"/>
+                        </Grid>
+
+                    </StackLayout>
+                </ScrollView>
+            </Grid>
+            <Button Grid.Row="2" 
+                    Grid.ColumnSpan="2" 
+                    x:Name="HomeButton" 
+                    Text="Home" 
+                    Clicked="OnHomePageClicked" 
+                    VerticalOptions="EndAndExpand"
+                    FontSize="Subtitle"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

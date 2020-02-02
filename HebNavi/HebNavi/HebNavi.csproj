@@ -1,0 +1,238 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="audio\alef.wav" />
+    <None Remove="audio\bet.wav" />
+    <None Remove="audio\betDaghesh.wav" />
+    <None Remove="audio\dalet.wav" />
+    <None Remove="audio\daletDaghesh.wav" />
+    <None Remove="audio\gimel.wav" />
+    <None Remove="audio\gimelDaghesh.wav" />
+    <None Remove="audio\he.wav" />
+    <None Remove="audio\LetterNames\alef.mp3" />
+    <None Remove="audio\LetterNames\alef.wav" />
+    <None Remove="audio\LetterNames\ayin.mp3" />
+    <None Remove="audio\LetterNames\bet.mp3" />
+    <None Remove="audio\LetterNames\bet.wav" />
+    <None Remove="audio\LetterNames\betDaghesh.mp3" />
+    <None Remove="audio\LetterNames\betDaghesh.wav" />
+    <None Remove="audio\LetterNames\dalet.mp3" />
+    <None Remove="audio\LetterNames\dalet.wav" />
+    <None Remove="audio\LetterNames\daletDaghesh.mp3" />
+    <None Remove="audio\LetterNames\daletDaghesh.wav" />
+    <None Remove="audio\LetterNames\dhalet.mp3" />
+    <None Remove="audio\LetterNames\gimel.mp3" />
+    <None Remove="audio\LetterNames\gimel.wav" />
+    <None Remove="audio\LetterNames\gimelDaghesh.mp3" />
+    <None Remove="audio\LetterNames\gimelDaghesh.wav" />
+    <None Remove="audio\LetterNames\he.mp3" />
+    <None Remove="audio\LetterNames\he.wav" />
+    <None Remove="audio\LetterNames\het.mp3" />
+    <None Remove="audio\LetterNames\kaf.mp3" />
+    <None Remove="audio\LetterNames\lamed.mp3" />
+    <None Remove="audio\LetterNames\mem.mp3" />
+    <None Remove="audio\LetterNames\nun.mp3" />
+    <None Remove="audio\LetterNames\pe.mp3" />
+    <None Remove="audio\LetterNames\peDaghesh.mp3" />
+    <None Remove="audio\LetterNames\qof.mp3" />
+    <None Remove="audio\LetterNames\resh.mp3" />
+    <None Remove="audio\LetterNames\samek.mp3" />
+    <None Remove="audio\LetterNames\shin.mp3" />
+    <None Remove="audio\LetterNames\sin.mp3" />
+    <None Remove="audio\LetterNames\taw.mp3" />
+    <None Remove="audio\LetterNames\tet.mp3" />
+    <None Remove="audio\LetterNames\tsade.mp3" />
+    <None Remove="audio\LetterNames\vet.mp3" />
+    <None Remove="audio\LetterNames\waw.mp3" />
+    <None Remove="audio\LetterNames\waw.wav" />
+    <None Remove="audio\LetterNames\wow.mp3" />
+    <None Remove="audio\LetterNames\yod.mp3" />
+    <None Remove="audio\LetterNames\zayin.mp3" />
+    <None Remove="audio\LetterPronunciations\alef.mp3" />
+    <None Remove="audio\LetterPronunciations\ayin.mp3" />
+    <None Remove="audio\LetterPronunciations\bet.mp3" />
+    <None Remove="audio\LetterPronunciations\betDaghesh.mp3" />
+    <None Remove="audio\LetterPronunciations\dalet.mp3" />
+    <None Remove="audio\LetterPronunciations\daletDaghesh.mp3" />
+    <None Remove="audio\LetterPronunciations\dhalet.mp3" />
+    <None Remove="audio\LetterPronunciations\gimel.mp3" />
+    <None Remove="audio\LetterPronunciations\gimelDaghesh.mp3" />
+    <None Remove="audio\LetterPronunciations\he.mp3" />
+    <None Remove="audio\LetterPronunciations\het.mp3" />
+    <None Remove="audio\LetterPronunciations\kaf.mp3" />
+    <None Remove="audio\LetterPronunciations\kafDaghesh.mp3" />
+    <None Remove="audio\LetterPronunciations\lamed.mp3" />
+    <None Remove="audio\LetterPronunciations\mem.mp3" />
+    <None Remove="audio\LetterPronunciations\nun.mp3" />
+    <None Remove="audio\LetterPronunciations\pe.mp3" />
+    <None Remove="audio\LetterPronunciations\peDaghesh.mp3" />
+    <None Remove="audio\LetterPronunciations\qof.mp3" />
+    <None Remove="audio\LetterPronunciations\resh.mp3" />
+    <None Remove="audio\LetterPronunciations\samek.mp3" />
+    <None Remove="audio\LetterPronunciations\shin.mp3" />
+    <None Remove="audio\LetterPronunciations\sin.mp3" />
+    <None Remove="audio\LetterPronunciations\taw.mp3" />
+    <None Remove="audio\LetterPronunciations\tet.mp3" />
+    <None Remove="audio\LetterPronunciations\tsade.mp3" />
+    <None Remove="audio\LetterPronunciations\vet.mp3" />
+    <None Remove="audio\LetterPronunciations\vet.wav" />
+    <None Remove="audio\LetterPronunciations\waw.mp3" />
+    <None Remove="audio\LetterPronunciations\wow.mp3" />
+    <None Remove="audio\LetterPronunciations\yod.mp3" />
+    <None Remove="audio\LetterPronunciations\zayin.mp3" />
+    <None Remove="audio\silence.mp3" />
+    <None Remove="audio\VowelNames\hireq.mp3" />
+    <None Remove="audio\VowelNames\hireqYod.mp3" />
+    <None Remove="audio\VowelNames\holem.mp3" />
+    <None Remove="audio\VowelNames\holemWaw.mp3" />
+    <None Remove="audio\VowelNames\pathach.mp3" />
+    <None Remove="audio\VowelNames\qamets.mp3" />
+    <None Remove="audio\VowelNames\qametsHatuf.mp3" />
+    <None Remove="audio\VowelNames\qametsHe.mp3" />
+    <None Remove="audio\VowelNames\qibbuts.mp3" />
+    <None Remove="audio\VowelNames\seghol.mp3" />
+    <None Remove="audio\VowelNames\segholYod.mp3" />
+    <None Remove="audio\VowelNames\shureq.mp3" />
+    <None Remove="audio\VowelNames\tsere.mp3" />
+    <None Remove="audio\VowelNames\tsereYod.mp3" />
+    <None Remove="audio\VowelPronunciations\hireq.mp3" />
+    <None Remove="audio\VowelPronunciations\hireqYod.mp3" />
+    <None Remove="audio\VowelPronunciations\holem.mp3" />
+    <None Remove="audio\VowelPronunciations\holemWaw.mp3" />
+    <None Remove="audio\VowelPronunciations\pathach.mp3" />
+    <None Remove="audio\VowelPronunciations\qamets.mp3" />
+    <None Remove="audio\VowelPronunciations\qametsHatuf.mp3" />
+    <None Remove="audio\VowelPronunciations\qibbuts.mp3" />
+    <None Remove="audio\VowelPronunciations\seghol.mp3" />
+    <None Remove="audio\VowelPronunciations\shureq.mp3" />
+    <None Remove="audio\VowelPronunciations\tsere.mp3" />
+    <None Remove="audio\VowelPronunciations\tsereYod.mp3" />
+    <None Remove="audio\waw.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlite-net-pcl" Version="1.6.292" />
+    <PackageReference Include="Xam.Plugin.SimpleAudioPlayer" Version="1.3.1" />
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="audio\alef.wav" />
+    <EmbeddedResource Include="audio\bet.wav" />
+    <EmbeddedResource Include="audio\dalet.wav" />
+    <EmbeddedResource Include="audio\daletDaghesh.wav" />
+    <EmbeddedResource Include="audio\gimel.wav" />
+    <EmbeddedResource Include="audio\gimelDaghesh.wav" />
+    <EmbeddedResource Include="audio\he.wav" />
+    <EmbeddedResource Include="audio\LetterNames\alef.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\ayin.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\bet.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\dalet.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\gimel.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\he.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\het.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\kaf.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\lamed.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\mem.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\nun.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\pe.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\qof.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\resh.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\samek.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\shin.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\sin.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\taw.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\tet.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\tsade.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\waw.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\yod.mp3" />
+    <EmbeddedResource Include="audio\LetterNames\zayin.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\ayin.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\betDaghesh.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\daletDaghesh.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\gimelDaghesh.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\kaf.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\kafDaghesh.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\lamed.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\mem.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\nun.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\pe.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\peDaghesh.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\qof.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\resh.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\samek.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\shin.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\sin.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\taw.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\tet.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\tsade.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\waw.mp3" />
+    <EmbeddedResource Include="audio\betDaghesh.wav" />
+    <EmbeddedResource Include="audio\LetterPronunciations\yod.mp3" />
+    <EmbeddedResource Include="audio\silence.mp3" />
+    <EmbeddedResource Include="audio\VowelNames\hireq.mp3" />
+    <EmbeddedResource Include="audio\VowelNames\hireqYod.mp3" />
+    <EmbeddedResource Include="audio\VowelNames\holem.mp3" />
+    <EmbeddedResource Include="audio\VowelNames\holemWaw.mp3" />
+    <EmbeddedResource Include="audio\VowelNames\pathach.mp3" />
+    <EmbeddedResource Include="audio\VowelNames\qamets.mp3" />
+    <EmbeddedResource Include="audio\VowelNames\qametsHatuf.mp3" />
+    <EmbeddedResource Include="audio\VowelNames\qametsHe.mp3" />
+    <EmbeddedResource Include="audio\VowelNames\qibbuts.mp3" />
+    <EmbeddedResource Include="audio\VowelNames\seghol.mp3" />
+    <EmbeddedResource Include="audio\VowelNames\segholYod.mp3" />
+    <EmbeddedResource Include="audio\VowelNames\shureq.mp3" />
+    <EmbeddedResource Include="audio\VowelNames\tsere.mp3" />
+    <EmbeddedResource Include="audio\VowelNames\tsereYod.mp3" />
+    <EmbeddedResource Include="audio\VowelPronunciations\hireq.mp3" />
+    <EmbeddedResource Include="audio\VowelPronunciations\hireqYod.mp3" />
+    <EmbeddedResource Include="audio\VowelPronunciations\holem.mp3" />
+    <EmbeddedResource Include="audio\VowelPronunciations\holemWaw.mp3" />
+    <EmbeddedResource Include="audio\VowelPronunciations\pathach.mp3" />
+    <EmbeddedResource Include="audio\VowelPronunciations\qamets.mp3" />
+    <EmbeddedResource Include="audio\VowelPronunciations\qametsHatuf.mp3" />
+    <EmbeddedResource Include="audio\VowelPronunciations\qibbuts.mp3" />
+    <EmbeddedResource Include="audio\VowelPronunciations\seghol.mp3" />
+    <EmbeddedResource Include="audio\VowelPronunciations\shureq.mp3" />
+    <EmbeddedResource Include="audio\VowelPronunciations\tsere.mp3" />
+    <EmbeddedResource Include="audio\VowelPronunciations\tsereYod.mp3" />
+    <EmbeddedResource Include="audio\waw.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Consonants.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LetterDetails.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LongVowels.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="NounsAndPronouns.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ShortVowels.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Vowels.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="audio\LetterPronunciations\alef.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\bet.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\dalet.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\gimel.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\he.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\het.mp3" />
+    <EmbeddedResource Include="audio\LetterPronunciations\zayin.mp3" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\HebNavi.UWP.csproj;x64

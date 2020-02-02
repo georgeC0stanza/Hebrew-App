@@ -1,0 +1,4 @@
+MainPackage=C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\HebNavi.UWP_1.0.1.0_ARM.appx
+SymbolPackage=C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\obj\ARM\Release\Symbols\HebNavi.UWP_1.0.1.0_ARM.appxsym
+ResourcePack=C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\HebNavi.UWP_1.0.1.0_scale-100.appx
+ResourcePack=C:\Users\harrd\source\repos\HebNavi\HebNavi\HebNavi.UWP\bin\ARM\Release\HebNavi.UWP_1.0.1.0_scale-400.appx
